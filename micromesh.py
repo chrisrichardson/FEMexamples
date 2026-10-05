@@ -84,7 +84,7 @@ def plot(mesh, *args, **kwargs):
     x = geom[:,0]
     y = geom[:,1]
 
-    plt.gca(aspect='equal')
+#    plt.gca(aspect='equal')
 
     if args:
         data = args[0]
